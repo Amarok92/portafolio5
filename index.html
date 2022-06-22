@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+    
+      <path fill="#0099ff" fill-opacity="1" d="M0,160L21.8,144C43.6,128,87,96,131,101.3C174.5,107,218,149,262,192C305.5,235,349,277,393,298.7C436.4,320,480,320,524,298.7C567.3,277,611,235,655,213.3C698.2,192,742,192,785,202.7C829.1,213,873,235,916,229.3C960,224,1004,192,1047,165.3C1090.9,139,1135,117,1178,133.3C1221.8,149,1265,203,1309,229.3C1352.7,256,1396,256,1418,256L1440,256L1440,0L1418.2,0C1396.4,0,1353,0,1309,0C1265.5,0,1222,0,1178,0C1134.5,0,1091,0,1047,0C1003.6,0,960,0,916,0C872.7,0,829,0,785,0C741.8,0,698,0,655,0C610.9,0,567,0,524,0C480,0,436,0,393,0C349.1,0,305,0,262,0C218.2,0,175,0,131,0C87.3,0,44,0,22,0L0,0Z"></path>
+    </svg>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
+    <title>Portafolio</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo">
+          
+            <h6 class="animate__animated animate__slideOutUp">Andres Tovar</h6>
+            <h5 class="animate__animated animate__zoomInLeft" >Developer</h5>
+
+        </a>
+        <button type="button" class="burger">
+        <span></span>
+        </button>
+    </header>
+    <main>
+        <section class="hero">
+   <div class="circle">
+  <span></span>
+  <span></span>
+   </div>
+   <img class="foto" src="img/avatar.jpg" alt="">
+   <a href="" class="budget"> Descargue CV <i class="bi bi-arrow-right "></i></a>
+   <a href="" class="phone">+57 3113437124</a>
+    
+   <ul class="menu-rotate">
+    <li><a href="">Acerca</a></li>
+    <li><a href="">Portafolio</a></li>
+    <li><a href="">Contacto</a></li>
+
+   </ul>
+   <ul class="social">
+    <li><a href=""><i class="bi bi-github"></i></a></li>
+    <li><a href=""><i class="bi bi-linkeding"></i></a></li>
+    <li><a href=""><i class="bi bi-instagram"></i></a></li>
+   </ul>
+   </section>
+   </main>
+   <section id="sec1">
+  <div class="contenedor-texto">
+    <h2 class="title">Acerca de mi</h2>
+    <p class="acerca animate__animated animate__zoomInLeft">Lorem ipsum dolor sit amet consectetur adipisicing elit. At aut velit, ex enim maxime voluptas voluptatibus hic laborum rem repellendus. Odit doloremque, eos recusandae ipsa dolores incidunt eum minus sapiente?</p>
+    <br>
+    <br>    
+  </div>
+   </section>
+   <h1 class="skills">Conocimientos</h1>
+   <div class="container">
+    <img class="control prev" src="img1.png" alt="">
+    <div class="slider">
+        <img src="lenguajes/html (1).png" alt="">
+        <img src="lenguajes/css.png" alt="">
+        <img src="lenguajes/javascript.png" alt="">
+        <img src="lenguajes/science.png" alt="">
+        <img src="lenguajes/git.png" alt="">
+        <img src="lenguajes/github (1).png" alt="">
+        
+    </div>
+    <img class="control next" src="img2.png" alt="">
+  </div>
+  <h1 class="title">Proyectos</h1>
+    
+  <div class="container">
+     
+      <div class="card">
+          <img src="img/proyecto1.png">
+          <h4>Noticiero</h4>
+          <p>Web pensada y realizada para un proyecto de noticias informales</p>
+          <a href="#">Link</a>
+      </div>
+      
+      <div class="card">
+          <img src="img/bakon house.JPG">
+          <h4>Comidas Rapidas</h4>
+          <p>Pagina realizada para solventar una necesidad de un rastaurante</p>
+          <a href="#">Link</a>
+      </div>
+      
+      <div class="card">
+          <img src="img/drag-and-drop.png">
+          <h4>Drag & Drop</h4>
+          <p> interfaces gráficas de usuario de la computadora, arrastrar y soltar es un gesto del dispositivo señalador en el que el usuario selecciona un objeto virtual </p>
+          <a href="#">Link</a>
+      </div>
+    </div>
+    <br>
+    <br>
+        <form id="form" action="" class="form">
+        <h1 class="tag"><span>Contacto</span></h1>
+        <label for="name">Nombre Completo <span>*</span></label>
+        <input name="name" required type="text" id="name" placeholder="Juan">
+        <label for="email">Correo electrónico <span>*</span></label>
+        <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+        <label for="message">Mensaje</label>
+        <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+        <button type="submit" class="btn primary full">enviar mensaje</button>
+      </form>
+      <a href="andrestovar152@gmail.com" id="trucazo"></a>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  
+  </div>
+  <p class="footer-message">
+    <img class="yo" src="img/coding.png" alt="">
+  </p>
+  <p class="footer-copyright">
+    Copyright 2021 - Todos los derechos reservados.
+  </p>
+
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
